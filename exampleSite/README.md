@@ -8,7 +8,7 @@ This repository offers a multilingual example site using the [Lotus Docs](https:
 2. Clone this repository
 
     ```bash
-    $ git clone --depth 1 https://github.com/colinwilson/lotusdocs lotusdocs
+    $ git clone --depth 1 https://github.com/colllijo/lotusdocs lotusdocs
     $ cd lotusdocs/exampleSite
     ```
 3. Run Hugo server.
@@ -24,5 +24,5 @@ The `exampleSite` functions by using the Hugo [`replace`](https://gohugo.io/hugo
 // go.mod
 ...
 
-replace github.com/colinwilson/lotusdocs => ../
+replace github.com/colllijo/lotusdocs => ../
 ```
