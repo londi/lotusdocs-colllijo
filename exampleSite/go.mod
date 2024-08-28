@@ -3,8 +3,10 @@ module github.com/colllijo/lotusdocs/exampleSite
 go 1.23.0
 
 require (
-	github.com/colllijo/lotusdocs v0.0.0-20240828120021-31ceca72c2da // indirect
+	github.com/colllijo/lotusdocs v0.0.0-20240828125533-703e62a1917d // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
+	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
+	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 )
 
-replace github.com/colinwilson/lotusdocs => ../
+replace github.com/colllijo/lotusdocs => ../
