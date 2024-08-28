@@ -13,7 +13,6 @@ Below you'll find a checklist. For each item on the list, check one option and d
 - [ ] This PR does not make a user-facing change -->
 
 <!-- ### Documentation
-- [ ] [Docs](https://github.com/colinwilson/lotusdocs.dev) have been updated
 - [ ] This change does not need a documentation update -->
 
 ### Dark mode

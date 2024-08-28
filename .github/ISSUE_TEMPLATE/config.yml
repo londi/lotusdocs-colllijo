@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
   - name: ❓ Questions
-    url: https://github.com/colinwilson/lotusdocs/discussions/new?category=q-a
+    url: https://github.com/colllijo/lotusdocs/discussions/new?category=q-a
     about: Please use the community forum for help and questions regarding Lotus Docs
   - name: 💡 Feature requests and ideas
-    url: https://github.com/colinwilson/lotusdocs/discussions/new?category=feature-requests
+    url: https://github.com/colllijo/lotusdocs/discussions/new?category=feature-requests
     about: Please vote for and post new feature ideas in the community forum
   - name: 📖 Documentation
     url: https://lotusdocs.dev/docs/
