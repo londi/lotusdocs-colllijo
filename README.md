@@ -237,8 +237,8 @@ Options to help you configure Lotus Docs to suite your needs.
 | `pathName` | string | `docs` | Pathname for the documentation site. A few additional changes to the Lotus Docs theme are required when this value is updated. See the **Installation** guide for more details. |
 | `themeColor` | string | `blue` | Set the sites accent color. This affects links, buttons and icons. Available options/colors include, `blue` (default), `green`, `red`, `yellow`, `emerald`, `cardinal`, `magenta`, `cyan`. |
 | `darkMode` | boolean | `false` | Enable Dark Mode? |
-| `prism` | boolean | `true` | Enable the PrismJS syntax highlighting plugin? See the [Syntax Highlighting](/docs/guides/features/syntax-highlighting/#prism-features) and [Prism Shortcode](/docs/guides/shortcodes/prism/) guides for more details. |
-| `prismTheme` | string | `lotusdocs` | **optional** - Set theme for PrismJS. Options include: `lotusdocs`, `solarized-light`, `twilight`, `lucario`. See the [Syntax Highlighting](/docs/guides/features/syntax-highlighting/#themes) guide for more details. |
+| `prism` | boolean | `true` | Enable the PrismJS syntax highlighting plugin? See the [Syntax Highlighting](https://lotusdocs.dev/docs/guides/features/syntax-highlighting/#prism-features) and [Prism Shortcode](https://lotusdocs.dev/docs/guides/shortcodes/prism/) guides for more details. |
+| `prismTheme` | string | `lotusdocs` | **optional** - Set theme for PrismJS. Options include: `lotusdocs`, `solarized-light`, `twilight`, `lucario`. See the [Syntax Highlighting](https://lotusdocs.dev/docs/guides/features/syntax-highlighting/#themes) guide for more details. |
 
 #### UI Options
 
@@ -280,7 +280,7 @@ Options to help you configure Lotus Docs to suite your needs.
 
 | Parameter | Type | Default Value | Description |
 |---------|-----|-----|------|
-| `intLinkTooltip` | boolean | `false` | Enable tooltips for internal links? Displays info about the link's destination? See the [Link behaviour guide]({{% relref "link-behaviour" %}}) for more details. |
+| `intLinkTooltip` | boolean | `false` | Enable tooltips for internal links? Displays info about the link's destination? See the [Link behaviour guide](https://lotusdocs.dev/docs/theme-options/link-behaviour/) for more details. |
 | `extLinkNewTab` | boolean | `true` | Open external links in a new Tab? |
 | `logoLinkURL` | string | `true` | Set a custom URL destination for the top header logo link. |
 
@@ -288,7 +288,7 @@ Options to help you configure Lotus Docs to suite your needs.
 
 #### FlexSearch Options
 
-See the the [FlexSearch Guide](/docs/guides/features/flexsearch/) for more information regarding the options below.
+See the the [FlexSearch Guide](https://lotusdocs.dev/docs/guides/features/flexsearch/) for more information regarding the options below.
 
 | Parameter | Type | Default Value | Description |
 |---------|-----|-----|------|
@@ -304,7 +304,7 @@ See the the [FlexSearch Guide](/docs/guides/features/flexsearch/) for more infor
 
 #### DocSearch Options
 
-See the the [DocSearch Guide](/docs/guides/features/docsearch/) for more information about DocSearch.
+See the the [DocSearch Guide](https://lotusdocs.dev/docs/guides/features/docsearch/) for more information about DocSearch.
 
 | Parameter | Type | Default Value | Description |
 |---------|-----|-----|------|
@@ -316,7 +316,7 @@ See the the [DocSearch Guide](/docs/guides/features/docsearch/) for more informa
 
 #### Plausible Analytics Options
 
-See the the [Plausible Analytics Guide]({{% relref "plausible-analytics" %}}) for more information about how to configure Plausible Analytics for your Lotus Docs site.
+See the the [Plausible Analytics Guide](https://lotusdocs.dev/docs/features/plausible-analytics/) for more information about how to configure Plausible Analytics for your Lotus Docs site.
 
 | Parameter | Type | Default Value | Description |
 |---------|-----|-----|------|
@@ -328,7 +328,7 @@ See the the [Plausible Analytics Guide]({{% relref "plausible-analytics" %}}) fo
 
 #### Feedback Widget
 
-See the the [Feedback Widget Guide](/docs/guides/features/feedback-widget/) for detailed information about how to configure the widget for Plausible and Google Analytics.
+See the the [Feedback Widget Guide](https://lotusdocs.dev/docs/guides/features/feedback-widget/) for detailed information about how to configure the widget for Plausible and Google Analytics.
 
 | Parameter | Type | Default Value | Description |
 |---------|-----|-----|------|
