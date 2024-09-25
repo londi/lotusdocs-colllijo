@@ -12,6 +12,9 @@
                     buttonText: '{{ i18n "search_title" }}',
                     buttonAriaLabel: 'Search',
                 }
+            },
+            searchParameters: {
+                facetFilters: ['lang:{{ .Site.Language.Language }}']
             }
         });
     });
