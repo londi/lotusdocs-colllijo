@@ -145,9 +145,11 @@ If so, collect and consolidate the items config from each enabled instance
                                                 <div id="content" class="main-content" {{ if eq .Site.Params.docs.toc true -}}data-bs-spy="scroll" data-bs-root-margin="0px 0px -65%" data-bs-target="#toc-mobile"{{ end }}>
                                                     {{ block "main" . }}{{ end }}
                                                 </div>
-                                                <div>
-                                                    {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "doc-nav.html") . -}}
-                                                </div>
+                                                {{ if site.Params.docs.navPrevNext | default true }}
+                                                  <div>
+                                                      {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "doc-nav.html") . -}}
+                                                  </div>
+                                                {{ end }}
                                             </div>
                                         </div>
                                     </div>

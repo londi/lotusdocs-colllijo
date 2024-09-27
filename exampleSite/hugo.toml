@@ -103,6 +103,8 @@ defaultContentLanguage = 'en'
         titleIcon       = true                                # enable front matter icon title prefix? default is false
 
         # content navigation
+        navPrevNext     = true                                # enable Prev/Next navigation cards? default true
+        navInDirectory  = false                               # enable Navigation only within the same directory? default is false
         navDesc         = true                                # include front matter descriptions in Prev/Next navigation cards
         navDescTrunc    = 30                                  # Number of characters by which to truncate the Prev/Next descriptions
 
