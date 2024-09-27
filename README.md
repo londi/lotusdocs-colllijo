@@ -248,6 +248,8 @@ Options to help you configure Lotus Docs to suite your needs.
 | `breadcrumbs` | boolean | `true` | Enable breadcrumb navigation links above the content title? |
 | `descriptions` | boolean | `true` | Enable front matter descriptions under content title? |
 | `backToTop` | boolean | `true` | Enable back-to-top button? |
+| `*navPrevNext` | boolean | `true` | Enable the Prev/Next navigation cards at the bottom of the page? |
+| `*navInDirectory` | boolean | `false` | Allow the Prev/Next only within a directory? |
 | `navDesc` | boolean | `true` | Enable front matter descriptions in content Prev/Next navigation card links? |
 | `navDescTrunc` | integer | `40` | Number of characters by which to truncate the Prev/Next link front matter descriptions. |
 | `listDescTrunc` | integer | `100` | Number of characters by which to truncate card front matter description. |
