@@ -231,15 +231,15 @@ Options to help you configure Lotus Docs to suite your needs.
 
 #### Core Site Options
 
-| Parameter | Type | Default Value | Description |
-|---------|-----|-----|------|
+| Parameter | Type | Default Value | Description                                                                                                                                                                                                                                                                    |
+|---------|-----|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `title` | string | N/A | Set the default HTML title for your documentation pages/sections e.g. `Lotus Docs` (This parameter is separate from the root Hugo [`title`](https://gohugo.io/getting-started/configuration/#title) parameter that sets the title for your site overall e.g the landing page.) |
-| `*landingPage` | boolean | true | Enable the landing page on the index site, if this option is disabled the index site displays the root of the documentation. |
-| `pathName` | string | `docs` | Pathname for the documentation site. A few additional changes to the Lotus Docs theme are required when this value is updated. See the **Installation** guide for more details. |
-| `themeColor` | string | `blue` | Set the sites accent color. This affects links, buttons and icons. Available options/colors include, `blue` (default), `green`, `red`, `yellow`, `emerald`, `cardinal`, `magenta`, `cyan`. |
-| `darkMode` | boolean | `false` | Enable Dark Mode? |
-| `prism` | boolean | `true` | Enable the PrismJS syntax highlighting plugin? See the [Syntax Highlighting](https://lotusdocs.dev/docs/guides/features/syntax-highlighting/#prism-features) and [Prism Shortcode](https://lotusdocs.dev/docs/guides/shortcodes/prism/) guides for more details. |
-| `prismTheme` | string | `lotusdocs` | **optional** - Set theme for PrismJS. Options include: `lotusdocs`, `solarized-light`, `twilight`, `lucario`. See the [Syntax Highlighting](https://lotusdocs.dev/docs/guides/features/syntax-highlighting/#themes) guide for more details. |
+| `*landingPage` | boolean | true | Enable the landing page on the index site, if this option is disabled the index site displays the root of the documentation.                                                                                                                                                   |
+| `pathName` | string | `docs` | Pathname for the documentation site. A few additional changes to the Lotus Docs theme are required when this value is updated. See the **Installation** guide for more details.                                                                                                |
+| `themeColor` | string | `blue` | Set the sites accent color. This affects links, buttons and icons. Available options/colors include, `blue` (default), `green`, `red`, `orange`, `yellow`, `emerald`, `cardinal`, `magenta`, `cyan`.                                                                           |
+| `darkMode` | boolean | `false` | Enable Dark Mode?                                                                                                                                                                                                                                                              |
+| `prism` | boolean | `true` | Enable the PrismJS syntax highlighting plugin? See the [Syntax Highlighting](https://lotusdocs.dev/docs/guides/features/syntax-highlighting/#prism-features) and [Prism Shortcode](https://lotusdocs.dev/docs/guides/shortcodes/prism/) guides for more details.               |
+| `prismTheme` | string | `lotusdocs` | **optional** - Set theme for PrismJS. Options include: `lotusdocs`, `solarized-light`, `twilight`, `lucario`. See the [Syntax Highlighting](https://lotusdocs.dev/docs/guides/features/syntax-highlighting/#themes) guide for more details.                                    |
 
 #### UI Options
 
