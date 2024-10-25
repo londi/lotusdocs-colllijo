@@ -1,5 +1,8 @@
 # Lotus Docs
 
+This is my [fork](https://github.com/colinwilson/lotusdocs) of the Lotus Docs theme for Hugo.  
+The original theme by [Colin Wilson](https://github.com/colinwilson) seems to be no longer maintained.  
+
 [Lotus Docs](https://lotusdocs.dev) is an easily updated and customisable [Hugo](https://gohugo.io/) theme for building fast, secure, and SEO-friendly documentation sites.
 
 ![Lotus Docs Banner](https://res.cloudinary.com/lotuslabs/image/upload/r_10/v1693340386/Lotus%20Docs/Social%20Media/lotus_docs_social_preview_github_1280x640_colour_v1.3_xzm1ex.webp)
@@ -78,7 +81,7 @@ The Lotus Docs theme can be installed using one of the following methods:
 
 ### Install as a Hugo Module (recommended)
 
-Edit the `hugo.toml` configuration file to include the [Lotus Docs theme](https://github.com/colinwilson/lotusdocs) and the [Hugo Bootstrap module](https://github.com/gohugoio/hugo-mod-bootstrap-scss) as modules:
+Edit the `hugo.toml` configuration file to include the [Lotus Docs theme](https://github.com/colllijo/lotusdocs) and the [Hugo Bootstrap module](https://github.com/gohugoio/hugo-mod-bootstrap-scss) as modules:
 
 ```toml
 baseURL = 'http://example.org/'
@@ -87,7 +90,7 @@ title = 'My New Hugo Site'
 
 [module]
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/colllijo/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -100,7 +103,7 @@ From the root of your project run the following `git` commands:
 
 ```bash
 git init
-git submodule add https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git submodule add https://github.com/colllijo/lotusdocs themes/lotusdocs
 ```
 
 Edit the `hugo.toml` config file:
@@ -113,9 +116,9 @@ title = 'My New Hugo Site'
 [module]
     # uncomment line below for temporary local development of module
     # or when using a 'theme' as a git submodule
-    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    replacements = "github.com/colllijo/lotusdocs -> lotusdocs"
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/colllijo/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -127,7 +130,7 @@ title = 'My New Hugo Site'
 There may be cases where you prefer to customize and maintain the Lotus Docs theme yourself. In such cases, use `git` to clone the theme into the `themes/lotusdocs` directory:
 
 ```bash
-git clone https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git clone https://github.com/colllijo/lotusdocs themes/lotusdocs
 ```
 
 Edit the `hugo.toml` config file:
@@ -140,9 +143,9 @@ title = 'My New Hugo Site'
 [module]
     # uncomment line below for temporary local development of module,
     # when using a 'theme' as a git submodule or git cloned files
-    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    replacements = "github.com/colllijo/lotusdocs -> lotusdocs"
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/colllijo/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -364,8 +367,8 @@ Parameters specific to the default feedback template.
 
 ## Author
 
-[Colin Wilson](https://github.com/colinwilson)
+[Liam Metzger](https://github.com/colllijo)
 
-Copyright © 2022-2023 [Colin Wilson](https://github.com/colinwilson)
+Copyright © 2022-2023 [Liam Metzger](https://github.com/colllijo)
 
 [^1]: [Hugo Modules](https://gohugo.io/hugo-modules/)
