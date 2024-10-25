@@ -6,7 +6,7 @@ icon: "article"
 date: "2024-10-24T10:57:43+02:00"
 lastmod: "2024-10-24T10:57:43+02:00"
 katex: true
-draft: true
+draft: false
 toc: true
 ---
 
