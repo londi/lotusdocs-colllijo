@@ -1,0 +1,22 @@
+{{- $categories := .Get 0 -}}
+{{- $filter := split $categories " " -}}
+
+<style>
+  dd {
+    margin-inline-start: 2rem;
+  }
+</style>
+
+<dl>
+  {{- range sort .Site.Data.termbase "term" -}}
+    {{- if $categories -}}
+      {{- if eq ((intersect $filter .categories) | len) 0 -}}
+        {{- continue -}}
+      {{- end -}}
+    {{- end -}}
+      {{- if .reference -}}<a href="{{- printf "/%s/%s" (.Site.Params.docs.pathName | default "docs") .reference -}}">{{- end -}}
+      <dt>{{- .term -}}{{- with .abbr }} ({{ . }}){{ end -}}</dt>
+      {{- if .reference -}}</a>{{- end -}}
+      <dd>{{- .definition -}}</dd>
+  {{- end -}}
+</dl>

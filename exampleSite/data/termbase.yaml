@@ -1,0 +1,51 @@
+- term: Abies
+  definition: A genus of coniferous trees, properly called fir.
+  categories:
+    - nature
+- term: Write the Docs
+  definition: A great place to discuss docs
+  abbr: WtD
+  categories:
+    - docs
+- term: Mean time to repair
+  definition: The average time it takes to repair a failed component in a system
+  abbr: MTTR
+  categories:
+- term: Montiform
+  definition: Resembling a mountain in form
+  categories:
+    - nature
+- term: Mozilla Developer Network
+  definition: A great place to read docs
+  abbr: MDN
+  categories:
+    - "docs"
+- term: Oryctology
+  definition: An old name for mineralogy and geology.
+  categories:
+    - nature
+- term: Request for comment
+  definition: A publication from the standards-setting bodies of the internet
+  abbr: RFC
+  categories:
+    - protocols
+- term: Request for proposal
+  definition: A call for proposals
+  abbr: RFP
+- term: Transmission Control Protocol
+  definition: A bidirectional protocol to deliver a reliable, ordered, and error-checked stream of octets between applications.
+  abbr: TCP
+  categories:
+    - protocols
+- term: Topaz
+  definition: A mineral occuring in rhombic prisms, generally yellowish and pellucid
+  categories:
+    - nature
+- term: User Datagram Protocol
+  definition: A connectionless communication protocol.
+  abbr: UDP
+  categories:
+    - protocols
+- term: Example with a reference
+  reference: quickstart
+  definition: This isn't an actual entry but a simple example
