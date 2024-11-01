@@ -15,4 +15,4 @@ toc: true
 
 ## Glossar (Kategorie `protocols`)
 
-{{ < glossary "protocols" >}}
+{{< glossary "protocols" >}}
