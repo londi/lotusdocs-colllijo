@@ -117,9 +117,7 @@ If so, collect and consolidate the items config from each enabled instance
                                             {{ end }}
                                             {{ if site.Params.docs.tocMobile | default true }}
                                             <div class="docs-toc-mobile {{ if .IsNode }}visually-hidden{{ else }}{{end}} {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}{{ else }}visually-hidden{{ end }} {{ if site.Params.docs.tocMobile | default true }}{{ else }}visually-hidden{{ end }} d-print-none d-xl-none">
-                                                <button id="toc-dropdown-btn" class="btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0,0" aria-expanded="false">
-                                                    Table of Contents
-                                                </button>
+                                                <h1>Table of Contents</h1>
                                                 {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "toc-mobile.html") . -}}
                                             </div>
                                             {{ end -}}

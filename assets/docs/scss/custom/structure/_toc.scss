@@ -18,25 +18,14 @@
 
 .docs-toc-mobile {
     position: sticky;
-    // top: 71px; // important (must be set)
-    top: 85px; // important (must be set)
+    margin-bottom: 1rem;
     padding-left: calc(var(--bs-gutter-x) * 1.05);
     padding-right: calc(var(--bs-gutter-x) * 1.05);
     z-index: 20;
 
-    // &.toc-pinned {
-    //     padding: 0;
-
-    //     .dropdown-toggle {
-    //         border-left: 0;
-    //         border-right: 0;
-    //         border-top: 0;
-    //         border-radius: 0;
-    //     }
-    // }
-
     a {
         color: var(--text-default);
+        text-decoration: underline;
     }
     a:hover {
         color: var(--toc-mobile-link-hover-color);
